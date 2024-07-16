@@ -1,13 +1,217 @@
 body {
   margin: 0;
+   background-color: black !important;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.fecth{
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  background-color: black;
+}
+.big-onemusic{
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  background-color: black;
+
+}
+.side-div{
+  width: 24%;
+  height: 100vh;
+  background-color: black;
+  border-radius: 0 15px 15px 0;
+}
+.inner-one{
+  height: 22vh;
+  padding: 20px;
+  background-color: rgb(18,18,18);
+  border-radius: 0 15px 15px 0;
+}
+.home{
+  display: flex;
+  gap: 10px;
+  color: white;
+  text-align: center;
+  /* align-items: center; */
+}
+.home i{
+  margin-top: 5px;
+  font-size: 25px;
+}
+.home p{
+  margin-top: 5px;
+}
+.inner-two{
+  margin-top: 10px;
+  height: 75vh;
+  background-color: rgb(18,18,18);
+  border-radius: 0 15px 15px 0;
+
+}
+.icon-div{
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.clone{
+  display: flex;
+  gap: 10px;
+  color: rgb(167,167,167);
+  text-align: center;
+  /* align-items: center; */
+}
+.clone i{
+  margin-top: 5px;
+  font-size: 25px;
+}
+.clone p{
+  margin-top: 5px;
+}
+.plus{
+  display: flex;
+  gap: 10px;
+  color: rgb(167,167,167);
+  text-align: center;
+}
+.plus i{
+  margin-top: 5px;
+  font-size: 20px;
+}
+.app-h1{
+   color: white;
+  padding-top: 10px;
+  height: 10vh;
+  font-size: 30px;
+  /* font-family: Arial, sans-serif;  */
+
+}
+.biggest{
+  height: 100vh !important;
+  width: 75% !important;
+  /* background-color: brown; */
+}
+.big-card::-webkit-scrollbar{
+  display: none;
+}
+.big-card{
+  display: flex !important;
+  /* background-color: chartreuse; */
+  gap: 10px;
+  height: 88vh !important;
+  width: 100% !important;
+  flex-wrap: wrap !important;
+  overflow: auto;
+}
+.loading{
+  margin: auto;
+  color: white;
+  width: 4%; 
+  height: 4rem
+}
+.card{
+  height:fit-content !important;
+  border: 1px solid hsl(0, 0%, 4%) !important;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 5px;
+  margin: 2px;  
+  line-height: 12px;
+  background-color: black !important;
+  color: white;
+  text-align: center;
+  width: 175px;
+  position: relative;
+  /* display: inline-block; */
+}
+.butoon{
+  position: absolute;
+  top: 130px;
+  right:20px;
+  border-radius: 100%;
+  display: none !important;
+}
+.card:hover .butoon{
+  display: block !important;
+}
+/* .card :hover{
+  background-color: rgb(18,18,18);
+  width: 175px;
+  height:fit-content !important;
+  
+} */
+.card-img img{
+  width: 100% !important;
+  height: 29vh !important ;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.play-button{
+  position: absolute;
+  background-color: aquamarine;
+  
+}
+.card h1{
+  font-family: Arial, sans-serif;
+  color: white;
+  font-size: 14px !important;
+}
+.mysongtitle{
+  margin-top: 10px;
+  font-family: Arial, sans-serif;
+  color: white;
+  font-size: 22px !important;
+}
+.myartist{
+  font-family: Arial, sans-serif;
+  color: white;
+  font-size: 18px !important;
+}
+.card p{
+  font-family: Arial, sans-serif;
+  color: white;
+  font-size: 12px !important;
+
+}
+.buttonnn button{
+  /* padding:2px; */
+}
+.buttonnn button{
+  font-size:26px;
+  border: 0 !important;
+  position:fixed !important;
+  bottom:0 !important;
+  z-index:4 !important;
+  right:15px !important;
+  color:black !important;
+  border-radius:50% !important;
+  background-color:white !important; 
+
+}
+.onemusic{
+  width:75%;
+  /* background-color: brown !important; */
+}
+.onemusic img{
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 20px;
+  align-items: center;
+  height: 50vh;
+  border-radius: 15px;
+}
+/* ::-webkit-scrollbar{
+  border-radius: 10px;
+  color: white;
+} */
